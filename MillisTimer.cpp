@@ -19,9 +19,9 @@ unsigned long currentMillis=millis();
 }
 
 void MillisTimer::setInterval(unsigned long newInterval){
-interval=newInterval;
+ interval=newInterval;
 }
 
 void MillisTimer::setTimer(){
-previousMillis=millis();
+ previousMillis=millis();
 }

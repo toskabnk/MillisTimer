@@ -9,7 +9,6 @@ void setup() {
   timer.setTimer(); //Inicializamos previousMillis
 }
 
-
 void loop() {
 //Comprobamos si ha pasado el intervalo
 if(timer.checkTimer()){

@@ -12,7 +12,6 @@ class MillisTimer {
 		void setTimer();
 		unsigned long interval;
 		unsigned long previousMillis;
-
 };
 
 #endif
