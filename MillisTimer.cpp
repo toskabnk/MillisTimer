@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "MillisTimer.h"
 
-MillisTimer::MillisTimer(int firstInterval){
+MillisTimer::MillisTimer(unsigned long firstInterval){
  interval=firstInterval;
 }
 
@@ -10,16 +10,15 @@ MillisTimer::MillisTimer(){
 }
 
 boolean MillisTimer::checkTimer(){
-boolean res=false;
 unsigned long currentMillis=millis();
   if(currentMillis - previousMillis >= interval){
-    res=true;
     previousMillis=currentMillis;
+	return true;
   }
-  return res;
+  return false;
 }
 
-void MillisTimer::setInterval(int newInterval){
+void MillisTimer::setInterval(unsigned long newInterval){
 interval=newInterval;
 }
 

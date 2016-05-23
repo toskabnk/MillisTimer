@@ -5,12 +5,12 @@
 
 class MillisTimer {
 	public:
-		MillisTimer(int firstInterval);
+		MillisTimer(unsigned long firstInterval);
 		MillisTimer();
 		boolean checkTimer();
-		void setInterval(int newInterval);
+		void setInterval(unsigned long newInterval);
 		void setTimer();
-		int interval;
+		unsigned long interval;
 		unsigned long previousMillis;
 
 };
