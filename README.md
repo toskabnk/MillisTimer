@@ -10,5 +10,6 @@ Las funciones principales son:
 
 Licencia GNU GPLv3.
 
-
 Autor: ToskaBNK y optimizaciones de Lucario448
+
+Hilo en: http://forum.arduino.cc/index.php?topic=399485

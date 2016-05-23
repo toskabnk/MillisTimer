@@ -10,7 +10,7 @@ void setup() {
 }
 
 void loop() {
-//Comprobamos si ha pasado el intervalo
+//Comprobamos si ha pasado el intervalo, devuelve true en caso afirmativo.
 if(timer.checkTimer()){
   if (ledState == LOW) {
       ledState = HIGH;
