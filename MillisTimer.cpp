@@ -11,7 +11,7 @@ MillisTimer::MillisTimer(){
 
 boolean MillisTimer::checkTimer(){
 unsigned long currentMillis=millis();
-  if(currentMillis - previousMillis >= interval){
+  if((unsigned long)(currentMillis - previousMillis )>= interval){
     previousMillis=currentMillis;
 	return true;
 	
