@@ -2,3 +2,4 @@ MillisTimer	KEYWORD1
 checkTimer	KEYWORD2
 setTimer	KEYWORD2
 setInterval	KEYWORD2
+toggleTimer	KEYWORD2

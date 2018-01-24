@@ -11,9 +11,13 @@ class MillisTimer {
 		boolean checkTimer();
 		void setInterval(unsigned long newInterval);
 		void setTimer();
-
-		unsigned long interval;
-		unsigned long previousMillis;
+		void toggleTimer(boolean newStatus);
+	
+	private:
+		unsigned long _interval;
+		unsigned long _previousMillis;
+		boolean _timerStatus;
+	
 };
 
 #endif
