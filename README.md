@@ -7,6 +7,7 @@ Las funciones principales son:
 - checkTimer: Boolean. Devuelve true y reinicia el contador si ha pasado el tiempo establecido.
 - setInterval: Void. Para establecer un nuevo intervalo.
 - setTimer: Void. Actualiza el contador. Es el analogo al previousMillis = 0, pero en vez de 0 a millis(). 
+- toggleTimer: Boolean. Activa o desactiva el temporizador.
 
 Licencia GNU GPLv3.
 

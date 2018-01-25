@@ -31,5 +31,5 @@ void MillisTimer::setTimer(){
 }
 
 void MillisTimer::toggleTimer(boolean newStatus){
-	_timerStatus = (newStatus = true) ? true : false;
+	_timerStatus = (newStatus == true) ? true : false;
 }
